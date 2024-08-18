@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+ul,ol,li{
+padding: 0;
+margin: 0;
+text-decoration: none;
+}
+header{
+    background-color: black;
+    max-width: 1920px;
+    margin: 0px auto;
+    height: 200px;
+   
+}
+.rex{
+    width: 190px;
+    height: 20px;
+    position: absolute;
+margin-top: 77px;
+margin-left: 149px;
+}
+.rex1{
+    display: flex;
+    justify-content: center;
+align-items: flex-end;
+height: 110px;
+margin-left: 200px;
+}
+.rex2{
+    margin-right: 80px;
+font-size: 30px;
+color: white;
+}
+.podr{
+    background-color: #020D04;
+    max-width: 1920px;
+    margin: 0px auto;
+    height: 1000px;
+}
+
+.slider {
+  width: 1200px;
+  height: 830px;
+ 
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 300px;
+}
+.slider1{
+  position: absolute;
+  opacity: 0;
+  width: 1300px;
+  height: 800px;
+  object-fit: cover;
+
+  border-radius: 6px;
+  left: -40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.slider1:target {
+  opacity: 1;
+  left: 0;
+  transition: all .5s ease-in-out;
+}
+.slider1#slide5 {
+  opacity: 1; 
+  left: 0;
+}
+.slider1:not(:target), .slider1:target ~ img#slide5  {
+  opacity: 0;
+  left: -40px;
+}
+
+.slid {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -65px;
+    padding: 0;
+}
+.slid .slid1 {
+   display: inline-block;
+   margin: 0 .3em;
+}
+.slid .slid1 .slid2{
+  margin: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;  
+  background: #ccc;
+}
+
+.slid2[href="#slide5"] {
+  background: #1E8CBE;
+}
+
+#slide1:target ~ .slid .slid1 .slid2[href="#slide1"],
+#slide2:target ~ .slid .slid1 .slid2[href="#slide2"],
+#slide3:target ~ .slid .slid1 .slid2[href="#slide3"],
+#slide4:target ~ .slid .slid1 .slid2[href="#slide4"],
+#slide5:target ~ .slid .slid1 .slid2[href="#slide5"] {
+  background: #1E8CBE;
+}
+
+#slide1:target ~ .slid .slid1 .slid2[href="#slide5"],
+#slide2:target ~ .slid .slid1 .slid2[href="#slide5"],
+#slide3:target ~ .slid .slid1 .slid2[href="#slide5"],
+#slide4:target ~ .slid .slid1 .slid2с[href="#slide5"]{
+  background: #ccc;
+}
+.karta{
+    background-color: black;
+    max-width: 1920px;
+    margin: 0px auto;
+    height: 1000px;
+}
+
+.kar{
+  color: #FFF;
+  margin-left: 200px;
+
+}
+.fot{
+  background-color: #000;
+  max-width: 1920px;
+  margin: 0px auto;
+  height: 550px; 
+}
+.fot1{
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.fot2{
+margin-top: 60px;
+}
+.yu{
+width: 300px;
+height: 30px
+}
+.yu1{
+color: #FFF;
+font-size: 30px;
+}
+.yu2{
+color: #FFF;
+font-size: 25px;
+height: 20px;
+margin-bottom: 20px;
+}
+.yu3{
+color: #FFF;
+margin-top: 190px;
+font-size: 22px;
+}
+.fotkar{
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 100px;
+
+}
+.karta1{
+  margin-top: 30px;
+}

@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+padding: 0;
+margin: 0;
+text-decoration: none;
+}
+header{
+    background-color: black;
+    max-width: 1920px;
+    margin: 0px auto;
+    height: 200px;
+   
+}
+.rex{
+    width: 190px;
+    height: 20px;
+    position: absolute;
+margin-top: 77px;
+margin-left: 149px;
+}
+.rex1{
+    display: flex;
+    justify-content: center;
+align-items: flex-end;
+height: 110px;
+margin-left: 200px;
+}
+.rex2{
+    margin-right: 80px;
+font-size: 30px;
+color: white;
+}
+.kroschka{
+    background-color: #020D04;
+    max-width: 1920px;
+    margin: 0px auto;
+    height: 700px;
+}
+.zeret{
+    font-size: 170px;
+    color: white;
+}
+
+
+
+
+
+
+ .karta{
+    background-color: black;
+    max-width: 1920px;
+    margin: 0px auto;
+    height: 1000px;
+}
+
+.kar{
+  color: #FFF;
+  margin-left: 200px;
+
+}
+.fot{
+  background-color: #000;
+  max-width: 1920px;
+  margin: 0px auto;
+  height: 550px; 
+}
+.fot1{
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.fot2{
+margin-top: 60px;
+}
+.yu{
+width: 300px;
+height: 30px
+}
+.yu1{
+color: #FFF;
+font-size: 30px;
+}
+.yu2{
+color: #FFF;
+font-size: 25px;
+height: 20px;
+margin-bottom: 20px;
+}
+.yu3{
+color: #FFF;
+margin-top: 190px;
+font-size: 22px;
+}
+.fotkar{
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 100px;
+
+}
+.karta1{
+  margin-top: 30px;
+}
